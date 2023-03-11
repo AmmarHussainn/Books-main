@@ -1,0 +1,340 @@
+*{
+    margin : 0 auto
+}
+.navMain{
+    background-color: #2c5857;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.footer{
+    background-color: #2c5857;
+    height: 100px;
+    width: 100%;
+    margin-top : 50px
+}
+.logoImg{
+   width: 200px;
+}
+.navSecond{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+.navFirst{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.navThird p{
+    margin: 0;
+
+}
+.thirdMain{
+    width: 30%;
+
+}
+.navThird{
+    display: flex;
+    justify-content: center;
+}
+.Listing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.childListing{
+    width: 80%;
+}
+.ListingHeading{
+    width: 80%;
+    margin-top: 70px;
+}
+.ListingHeading h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.SM{
+    margin-top : 50px;
+}
+.LineG{
+    height: 2px;
+    width: 100%;
+    background-color: #2c5857;
+    margin-top: 15px;
+    margin-bottom : 45px
+
+
+}
+.FilterChild{
+    margin-top: 100px;
+    background-color: #2c5857;
+    height: 130px;
+    width: 250px;
+    border-radius: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FilterChild h2{
+    color: white;
+}
+.childListing{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.ListingHeading h2{
+}
+.ProductMain{
+    width: 140px;
+    margin: 0;
+}
+.TextPrdouct p{
+    color: #2c5857;
+}
+.ratingImg img{
+    width: 170px;
+    margin-left: -13px;
+}
+.saveimg img{
+    margin-top: -13px;
+    margin-right: -18px;
+    width: 50px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top : 10px;
+}
+.ProductImage {
+    width: 100%;
+    height: 200px;
+
+}
+.ProductImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.b{
+    border: 0.5px solid purple;
+}
+.navThird h2{
+    margin-left:10px;
+    margin-right : 0
+}
+.Hamburg{
+    width : 50px;
+    height : 50px ; 
+    margin-top :-50px;
+    margin-right: 20px
+}
+.Hamburg1 ,.Hamburg2 , .Hamburg3{
+    width : 100%;
+    height:15%;
+    background-color : white;;
+    margin-bottom : 5px;
+    margin-top : 5px
+
+}
+
+.mobNav{
+    width: 100px;
+    margin-top: -10px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    right: 10px;
+    top : 100px;
+    background-color: #4d7d7c;
+    /* display:none; */
+
+
+}
+.MainHeadiing{
+    width:100%;
+    display:flex;
+    justify-content  :center
+}
+.MainHeadiing div{
+    width : 80%;
+    margin-top : 10px
+}
+.mobNav p{
+    color :white ; 
+    padding: 5px
+
+}
+.MainReading{
+    display:flex;
+    flex-wrap : wrap;
+    width : 100%;
+}
+.MainReading1{
+    width : 40%;
+    height :70vh
+
+}
+.smallimgs{
+    display :flex;
+    width : 100%;
+    height : 60px
+}
+.smallImg2{
+    width : 20%;
+    height : 100%;
+    margin-right  :-20px
+}
+.Heads{
+    text-align : center ; 
+    width : 80%;
+    float: left;
+    margin-top : 30px
+
+}
+.para{
+    width : 80%;
+    float: left;
+    margin-top : 35px
+
+
+}
+.lastpara{
+    width : 80%;
+    float: left;
+    display : flex;
+    justify-contain : space-between;
+    margin-top:20px;
+    margin-top : 35px;
+    flex-wrap: wrap;
+
+}
+.lastpara3 img{
+    width : 100%
+}
+.lastpara1 , .lastpara2 {
+    width  :27%
+}
+.lastpara3{
+    width  :38%
+}
+.lane{
+    background-color: #2c5857;
+    height  :2px;
+}
+.largeImage {
+    /* display:flex;
+    justify-content : center ; 
+    align-items:center */
+    height:500px;
+    width :100%
+
+}
+.MainreadingChild{
+    width:50%
+}
+.strs{
+    width :90%;
+    margin-left : -20px
+}
+.veryLargeimg{
+    width : 100%;
+}
+.veryLargeimg img{
+    width : 100%;
+    object-fit : contain
+}
+
+.MainReading1{
+    display:flex;
+    justify-content : center ; 
+    align-items:center;
+    felx-direction  :column
+}
+.MainReading2{
+    width : 60%;
+    height :400px
+}
+.Hamburg:hover , .Hamburg:focus {
+
+}
+.navThird ,.navFirst{
+    visibility :  hidden
+   }
+
+@media screen and (min-width: 480px) {
+    .Hamburg{
+        visibility : hidden;
+    }
+    .navThird ,.navFirst{
+        visibility :  visible !important;
+       }
+  
+  }
+  @media screen and (max-width: 748px) {
+    .lastpara1 , .lastpara2 ,.lastpara3{
+        width  :100%;
+        margin-bottom : 20px
+
+
+    }
+    .lastpara3 img{
+        width : 80%;
+        margin-bottom : 20px
+    }
+    .footer{
+        margin-top : 300px
+    }
+  
+  }
+  @media screen and (max-width: 1066px) {
+    .MainReading2{
+        width : 100%;
+        display: flex;
+       flex-direction: column;
+       margin-bottom : 100px
+    }
+    .largeImage{
+        height : 300px
+
+    }
+   
+    }
+  
+  }
+@media screen and (max-width: 480px) {
+  
+   .ListingHeading{
+    width:85%;
+   }
+   .childListing {
+    width:85%;
+
+   }
+   .MainHeadiing div{
+    width : 85%;
+}
+
+}
+  
+
+
+
+  
